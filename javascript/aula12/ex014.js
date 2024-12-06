@@ -11,6 +11,7 @@ var diaSem = agora.getDay()
 */
 
 console.log(diaSem) //Mostra apenas o número relacionado ao dia da semana
+
 switch(diaSem){
     case 0 :
         console.log('Domingo')
@@ -29,5 +30,8 @@ switch(diaSem){
         break
     case 5:
         console.log('Sexta')
+        break
+    default:
+        console.log('[ERRO] Dia inválido')
         break
 }
